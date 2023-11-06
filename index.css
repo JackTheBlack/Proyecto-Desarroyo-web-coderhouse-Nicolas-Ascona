@@ -1,0 +1,217 @@
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    position: sticky;
+    margin: 0;
+
+    padding-top: 20px;
+    margin-left: 0;
+    height: 100px;
+    width: 100%;
+   
+    justify-content: center;
+    color:white;
+}
+
+.nav-div{
+    display: grid;
+    grid-template-columns: 30%  40% 30% ;
+}
+
+.nav-sections{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+header{
+    background-color: black;
+}
+
+
+.logo{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.nav-sections{
+    position: relative;
+    margin-top: 4%;
+
+}
+
+.nav-section{
+    margin-left: 5%;
+}
+
+.nav-chart{
+    display: flex;
+    justify-content: right;
+    margin-left: 38%;
+}
+
+
+
+.index-grid{
+    display: grid;
+   
+    grid-template-rows: auto auto auto auto auto;
+    color:white
+}
+
+.procuct-container{
+    font-size: 24px;
+    font-family: 'Montserrat';
+font-style: normal;
+
+width: 100%;
+height: 150px;
+}
+
+
+.product-container-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(204, 206, 203);
+}
+
+.product-shop-container{
+ 
+    height: 800px;
+    padding-bottom: 500px;
+}
+
+.container{
+  
+    display: flex;
+   
+   align-items: center;
+   justify-content: center;
+
+}
+
+.container-img1:hover{
+    filter: brightness(120%);
+   cursor: pointer;
+}
+
+
+
+
+
+.container-img2:hover{
+    filter: brightness(120%);
+   cursor: pointer;
+}
+
+
+.container-img3:hover{
+    filter: brightness(120%);
+   cursor: pointer;
+}
+
+
+
+.btn-shop{
+    background-color: Transparent;
+    border: none;
+}
+
+
+
+.product-container-title-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    }
+
+.product-container-title-btn:hover{
+cursor: pointer;
+
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 25px;
+    background-image:url("img/accesorios.jpg") ;
+  
+   
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.block-button{
+   
+  
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+}
+
+.accesorios{
+  
+    
+   
+    
+}
+
+
+.indumentaria{
+
+    background-image:url("img/indumentaria.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+
+}
+
+.section-head{
+    height: 80px;
+}
+.section-name{
+    background-color: rgb(197, 195, 195);
+    font-size: 2em;
+}
+
+
+
+footer{
+    background-color: rgb(21, 20, 28);
+    height: 200px;
+    color:white;
+    font-family:cursive;
+    position: relative;
+    display: flex;
+    bottom: 0px;
+   
+    width: 100%;
+}
+.row-contactos{
+    justify-content: center;
+    background-color: rgb(93, 192, 43);
+}
+
+
+.container-contactos{
+    margin-bottom: 2%;
+}
+
+.product-img{
+    width: 200px;
+}
+
